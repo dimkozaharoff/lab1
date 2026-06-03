@@ -5,7 +5,14 @@ using namespace std;
 
 int main() {
     int a, b;
-    cout << "Введите два целых числа: ";
-    cin >> a >> b;
+
+    cout << "Введите первое целое число: ";
+    cin >> a;
+
+    cout << "Введите второе целое число: ";
+    cin >> b;
+
+    cout << a << " + " << b << " = " << a + b << endl;
+
     return 0;
 }
