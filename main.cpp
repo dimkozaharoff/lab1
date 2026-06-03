@@ -15,6 +15,7 @@ int main() {
 
     cout << "Сумма: " << a + b << endl;
     cout << "Разность: " << a - b << endl;
+    cout << "Произведение: " << a * b << endl;
 
     return 0;
 }
