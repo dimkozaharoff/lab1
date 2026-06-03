@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Учебная программа
 int main() {
     int a, b;
 
@@ -12,7 +13,8 @@ int main() {
     cout << "Введите второе целое число: ";
     cin >> b;
 
-    cout << a << " + " << b << " = " << a + b << endl;
+    cout << "Сумма: " << a + b << endl;
+    cout << "Разность: " << a - b << endl;
 
     return 0;
 }
